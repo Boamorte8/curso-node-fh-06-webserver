@@ -1,14 +1,13 @@
 const hbs = require('hbs');
-const uuid = require('uuid');
 
-const version = 'DEV_' + uuid.v4();
+const version = require('../environment');
 
 // Helpers
 hbs.registerHelper('getYear', () => {
     return new Date().getFullYear();
 });
 hbs.registerHelper('getVersion', () => {
-    return version;
+    return version.version;
 });
 hbs.registerHelper('onCapitalize', (text) => {
     let words  = text.split(' ');
