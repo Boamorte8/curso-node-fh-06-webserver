@@ -1,6 +1,6 @@
 # Learning basic express
 
-Learning express basics
+Learning express basics. Node, HBS, Express, Heroku
 
 ## To init project
 
