@@ -7,3 +7,9 @@ Learning express basics
 ```
  npm i
 ```
+
+## To run project on dev
+
+```
+ npm run dev
+```
